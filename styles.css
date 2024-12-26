@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("aa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.quiz-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background:linear-gradient(to right,rgb(255,255,0),rgb(0,255,255),rgb(255,0,128));
+    animation: 10s;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color:black;
+    text-style:bold;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#results {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
